@@ -76,7 +76,6 @@ textarea:focus {
   margin-bottom: 2rem;
   text-align: center;
   border-radius: 1rem;
-  -moz-box-sizing: border-box;
 }
 
 .form_input::-webkit-input-placeholder {
@@ -142,6 +141,7 @@ textarea:focus {
 
 .button:hover {
   cursor: pointer;
+  background: linear-gradient(180deg, #ffb400 0%, #ffed26 100%);
 }
 
 .section_header {
@@ -260,6 +260,7 @@ textarea:focus {
 
 .header_btn:hover {
   cursor: pointer;
+  box-shadow: 2px 3px #55a831;
 }
 
 .header .working_hours {
